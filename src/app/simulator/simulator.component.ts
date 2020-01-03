@@ -7,10 +7,39 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SimulatorComponent implements OnInit {
 
-  idade=null;
-  brutos=null;
-  aCusto=null;
+  idade=28;
+  brutos=1000;
+  aCusto=500;
   
+  meses=[
+    'Janeiro',
+    'Fevereiro',
+    'Março',
+    'Abril',
+    'Maio',
+    'Junho',
+    'Julho',
+    'Agosto',
+    'Setembro',
+    'Outubro',
+    'Novembro',
+    'Dezembro',
+  ]
+
+  titulos=[
+    'Nome',
+    'Idade',
+    'Brutos',
+    'A. Custo',
+    'Sub. Ali.',
+    'E. Civil',
+    'Depend.',
+    'IRS',
+    'Seguro p/mês',
+    'IRS p/mês',
+    'SS p/mês',
+    'TSU p/mês',
+  ]
 
   constructor() { }
 

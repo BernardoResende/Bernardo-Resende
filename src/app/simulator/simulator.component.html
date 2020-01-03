@@ -1,6 +1,23 @@
-<p>{{idade}}</p>
-<p>{{brutos}}</p>
-<p>{{aCusto}}</p>
-<input matInput placeholder="Idade" [(ngModel)]="this.idade">
-<input matInput placeholder="Brutos" [(ngModel)]="this.brutos">
-<input matInput placeholder="A. Custo" [(ngModel)]="this.aCusto">
+
+<p><input matInput placeholder="Idade" [(ngModel)]="this.idade"></p>
+<p><input matInput placeholder="Brutos" [(ngModel)]="this.brutos"></p>
+<p><input matInput placeholder="A. Custo" [(ngModel)]="this.aCusto"></p>
+
+<div class="container border">
+
+<div class="row border">
+    <div class="col-sm-1 border" *ngFor="let titulo of titulos">{{titulo}}</div>
+  </div>
+
+  <div class="row border">
+    <div class="col-sm-1 border">{{idade}}</div>
+    <div class="col-sm-1 border">{{brutos}}</div>
+    <div class="col-sm-1 border">{{aCusto}}</div>
+  </div>
+
+  <div class="row border">
+    <div class="col-sm-1 border" *ngFor="let titulo of meses">{{titulo}}</div>
+  </div>
+
+  
+</div>
