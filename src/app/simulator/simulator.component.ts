@@ -40,10 +40,10 @@ export class SimulatorComponent implements OnInit {
     'E. Civil',
     'Depend.',
     'IRS',
-    'Seguro p/mês',
-    'IRS p/mês',
-    'SS p/mês',
-    'TSU p/mês',
+    'Seguro',
+    'IRS',
+    'SS',
+    'TSU',
   ]
 
   constructor() { }

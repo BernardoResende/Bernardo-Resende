@@ -1,1 +1,9 @@
 /* Add application styles & imports to this file! */
+
+ body{
+   background-color: #34B18E!important;
+ }
+
+.container {
+    max-width: 1200px!important;
+}
