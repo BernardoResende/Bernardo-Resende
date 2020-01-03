@@ -1,23 +1,75 @@
-
+<p><input matInput placeholder="Nome" [(ngModel)]="this.nome"></p>
 <p><input matInput placeholder="Idade" [(ngModel)]="this.idade"></p>
 <p><input matInput placeholder="Brutos" [(ngModel)]="this.brutos"></p>
 <p><input matInput placeholder="A. Custo" [(ngModel)]="this.aCusto"></p>
+<p><input matInput placeholder="Estado Civil" [(ngModel)]="this.eCivil"></p>
+<p><input matInput placeholder="Dependentes" [(ngModel)]="this.depen"></p>
+
 
 <div class="container border">
 
-<div class="row border">
-    <div class="col-sm-1 border" *ngFor="let titulo of titulos">{{titulo}}</div>
+  <div class="row border">
+
+    <div class="col-sm-12 border"></div>
+      <!-- HEADER -->
+
   </div>
 
-  <div class="row border">
+    <div class="row border">
+
+    <div class="col-sm border">
+      <div class="container border">
+        <div class="row border">1</div>
+        <div class="row border">2</div>
+        <div class="row border">3</div>
+        <div class="row border">3</div>
+        <div class="row border">3</div>
+        <div class="row border">3</div>
+        <div class="row border">3</div>
+        <div class="row border">3</div>
+        <div class="row border">3</div>
+        <div class="row border">3</div>
+        <div class="row border">3</div>
+       </div> 
+    </div>
+
+    <div class="col-sm border">
+      <div class="container border">
+        <div class="row border">
+    <div class="col-sm-1 border" *ngFor="let titulo of titulos">{{titulo}}</div>
+        </div>
+        <div class="row border">
+    <div class="col-sm-1 border">{{nome}}</div>
     <div class="col-sm-1 border">{{idade}}</div>
     <div class="col-sm-1 border">{{brutos}}</div>
     <div class="col-sm-1 border">{{aCusto}}</div>
+    <div class="col-sm-1 border">{{sAli}}</div>
+    <div class="col-sm-1 border">{{eCivil}}</div>
+    <div class="col-sm-1 border">{{depen}}</div>
   </div>
 
   <div class="row border">
     <div class="col-sm-1 border" *ngFor="let titulo of meses">{{titulo}}</div>
   </div>
+       </div> 
+    </div>
+    
+    <div class="col-sm border">
+      <div class="container border">
+        <div class="row border">1</div>
+        <div class="row border">2</div>
+        <div class="row border">3</div>
+        <div class="row border">3</div>
+        <div class="row border">3</div>
+        <div class="row border">3</div>
+        <div class="row border">3</div>
+        <div class="row border">3</div>
+        <div class="row border">3</div>
+        <div class="row border">3</div>
+        <div class="row border">3</div>
+       </div> 
+    </div>
 
-  
+  </div>
+    
 </div>
