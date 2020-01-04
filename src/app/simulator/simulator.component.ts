@@ -9,13 +9,13 @@ export class SimulatorComponent implements OnInit {
   
   nome:string=null;
   idade:number=null;
-  brutos=null;
-  aCusto=null;
-  encargo=null;
+  brutos:number=null;
+  aCusto:number=null;
+  encargo:number=null;
   sAli=7.63;
   eCivil=null;
-  depen=null;
-  tsu=null;
+  depen:number=null;
+  tsu:number=null;
 
     jan=Math.round((22*this.sAli)*1e2)/1e2;
     fev=Math.round((20*this.sAli)*1e2)/1e2;
