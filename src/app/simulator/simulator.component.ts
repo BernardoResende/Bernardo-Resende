@@ -11,6 +11,7 @@ export class SimulatorComponent implements OnInit {
   idade=null;
   brutos=null;
   aCusto=null;
+  aCusto=null;
   sAli=7.63;
   eCivil=null;
   depen=null;
@@ -28,7 +29,7 @@ export class SimulatorComponent implements OnInit {
     nov=Math.round((21*this.sAli)*1e2)/1e2;
     dez=Math.round((20*this.sAli)*1e2)/1e2;
   
-  totalsAli=Math.round((this.jan+this.fev+this.mar+this.abr+this.mai+this.jun+this.jul+this.ago+this.set+this.out+this.nov+this.dez)*1e2)/1e2;
+  totalsAli=Math.round((this.jan+this.fev+this.mar+this.abr+this.mai+this.jul+this.ago+this.set+this.out+this.nov+this.dez)*1e2)/1e2;
 
   
   meses=[
