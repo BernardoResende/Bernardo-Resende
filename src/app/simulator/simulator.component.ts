@@ -46,6 +46,20 @@ export class SimulatorComponent implements OnInit {
     'TSU',
   ]
 
+ 
+    jan=22;
+    fev=20;
+    mar=22;
+    abr=22;
+    mai=20;
+    jun=19;
+    jul=23;
+    ago=21;
+    set=22;
+    out=21;
+    nov=21;
+    dez=20;
+
   constructor() { }
 
   ngOnInit() {
