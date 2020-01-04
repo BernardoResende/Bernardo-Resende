@@ -15,6 +15,7 @@ export class SimulatorComponent implements OnInit {
   sAli=7.63;
   eCivil=null;
   depen=null;
+  tsu=null;
 
     jan=Math.round((22*this.sAli)*1e2)/1e2;
     fev=Math.round((20*this.sAli)*1e2)/1e2;
@@ -31,6 +32,9 @@ export class SimulatorComponent implements OnInit {
   
   totalsAli=Math.round((this.jan+this.fev+this.mar+this.abr+this.mai+this.jul+this.ago+this.set+this.out+this.nov+this.dez)*1e2)/1e2;
 
+  encargo=[(ngModel)]="this.nome";
+
+  
   
   meses=[
     'Janeiro',
