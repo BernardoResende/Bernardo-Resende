@@ -15,3 +15,16 @@ div{
   padding:0%!important;
 }
 
+.col-sm:empty::after{
+  content: ".";
+  visibility:hidden;
+}
+
+.col-sm{
+  text-align: right
+}
+
+.col-sm-12:empty::after{
+  content: ".";
+  visibility:hidden;
+}
