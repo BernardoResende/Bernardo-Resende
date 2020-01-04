@@ -11,9 +11,24 @@ export class SimulatorComponent implements OnInit {
   idade=null;
   brutos=null;
   aCusto=null;
-  sAli=7.63;;
+  sAli=7.63;
   eCivil=null;
   depen=null;
+
+    jan=(22*this.sAli).toFixed(2);
+    fev=(20*this.sAli).toFixed(2);
+    mar=(22*this.sAli).toFixed(2);
+    abr=(22*this.sAli).toFixed(2);
+    mai=(20*this.sAli).toFixed(2);
+    jun=(19*this.sAli).toFixed(2);
+    jul=(23*this.sAli).toFixed(2);
+    ago=(21*this.sAli).toFixed(2);
+    set=(22*this.sAli).toFixed(2);
+    out=(21*this.sAli).toFixed(2);
+    nov=(21*this.sAli).toFixed(2);
+    dez=(20*this.sAli).toFixed(2);
+  
+  totalsAli=this.jan+this.fev+this.mar+this.abr+this.mai+this.jun+this.jul+this.ago+this.set+this.out+this.nov+this.dez;
 
   
   meses=[
@@ -47,18 +62,7 @@ export class SimulatorComponent implements OnInit {
   ]
 
  
-    jan=22;
-    fev=20;
-    mar=22;
-    abr=22;
-    mai=20;
-    jun=19;
-    jul=23;
-    ago=21;
-    set=22;
-    out=21;
-    nov=21;
-    dez=20;
+    
 
   constructor() { }
 
