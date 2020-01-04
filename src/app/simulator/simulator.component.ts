@@ -11,7 +11,7 @@ export class SimulatorComponent implements OnInit {
   idade=null;
   brutos=null;
   aCusto=null;
-  sAli=7.63;
+  sAli=7.63;;
   eCivil=null;
   depen=null;
 
