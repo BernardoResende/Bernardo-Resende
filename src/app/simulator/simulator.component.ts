@@ -16,6 +16,7 @@ export class SimulatorComponent implements OnInit {
   eCivil=null;
   depen:number=null;
   tsu:number=null;
+  negocio:number=null;
 
     jan=Math.round((22*this.sAli)*1e2)/1e2;
     fev=Math.round((20*this.sAli)*1e2)/1e2;

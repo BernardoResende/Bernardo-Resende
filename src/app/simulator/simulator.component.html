@@ -1,4 +1,4 @@
-<p><input type="String"matInput placeholder="Nome" [(ngModel)]="this.nome"></p>
+<p><input type="String"matInput placeholder="Nome" [(ngModel)]="this.nome"><input type="number"matInput placeholder="Negocio" [(ngModel)]="this.negocio"></p>
 	<p><input type="number" matInput placeholder="Idade" [(ngModel)]="this.idade"></p>
 		<p><input type="number" matInput placeholder="Brutos" [(ngModel)]="this.brutos"></p>
 			<p><input type="number" matInput placeholder="A. Custo" [(ngModel)]="this.aCusto "></p>
@@ -199,8 +199,8 @@
 										<div class="row "><div class="col-sm ">€</div></div>
 										<div class="row "><div class="col-sm ">{{brutos*14*0.2375 | number:'1.2-2'}}€</div></div>
 										<div class="row "><div class="col-sm ">{{(brutos*14)+totalsAli+(aCusto*11)+(brutos*14*0.2375) | number:'1.2-2'}}€</div></div>
-										<div class="row "><div class="col-sm ">€</div></div>
-										<div class="row "><div class="col-sm ">€</div></div>
+										<div class="row "><div class="col-sm ">{{negocio*20 | number:'1.2-2'}}€</div></div>
+									
 									</div>
 								</div>
 
