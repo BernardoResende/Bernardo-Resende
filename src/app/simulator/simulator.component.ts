@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SimulatorComponent implements OnInit {
   
-  nome=null;
-  idade=null;
+  nome:string=null;
+  idade:number=null;
   brutos=null;
   aCusto=null;
   encargo=null;
