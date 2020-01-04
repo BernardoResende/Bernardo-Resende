@@ -107,18 +107,18 @@
 										</div>
 
                     <div class="row ">
-											<div class="col-sm-1 "><div class="col-sm ">{{jan}}€</div></div>
-											<div class="col-sm-1 "><div class="col-sm ">{{fev}}€</div></div>
-											<div class="col-sm-1 "><div class="col-sm ">{{mar}}€</div></div>
-											<div class="col-sm-1 "><div class="col-sm ">{{abr}}€</div></div>
-											<div class="col-sm-1 "><div class="col-sm ">{{mai}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{jan*sAli | number:'1.2-2'}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{fev*sAli | number:'1.2-2'}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{mar*sAli | number:'1.2-2'}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{abr*sAli | number:'1.2-2'}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{mai*sAli | number:'1.2-2'}}€</div></div>
 											<div class="col-sm-1 "><div class="col-sm ">0€</div></div>
-											<div class="col-sm-1 "><div class="col-sm ">{{jul}}€</div></div>
-											<div class="col-sm-1 "><div class="col-sm ">{{ago}}€</div></div>
-											<div class="col-sm-1 "><div class="col-sm ">{{set}}€</div></div>
-											<div class="col-sm-1 "><div class="col-sm ">{{out}}€</div></div>
-											<div class="col-sm-1 "><div class="col-sm ">{{nov}}€</div></div>
-											<div class="col-sm-1 "><div class="col-sm ">{{dez}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{jul*sAli | number:'1.2-2'}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{ago*sAli | number:'1.2-2'}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{set*sAli | number:'1.2-2'}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{out*sAli | number:'1.2-2'}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{nov*sAli | number:'1.2-2'}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{dez*sAli | number:'1.2-2'}}€</div></div>
 										</div>
 
                       <div class="row ">
@@ -168,18 +168,33 @@
 
                     <div class="row">
 											<!-- <div class="col-sm-1 "><div class="col-sm ">{{brutos+jan | currency : 'EUR' : true : '1.2-2'}}</div></div> -->
-											<div class="col-sm-1 "><div class="col-sm ">{{brutos+jan+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2'}}€</div></div>
-                      <div class="col-sm-1 "><div class="col-sm ">{{brutos+fev+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2'}}€</div></div>
-											<div class="col-sm-1 "><div class="col-sm ">{{brutos+mar+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2'}}€</div></div>
-											<div class="col-sm-1 "><div class="col-sm ">{{brutos+abr+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2'}}€</div></div>
-											<div class="col-sm-1 "><div class="col-sm ">{{brutos+mai+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2'}}€</div></div>
-											<div class="col-sm-1 "><div class="col-sm ">{{brutos+jun+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2'}}€</div></div>
-											<div class="col-sm-1 "><div class="col-sm ">{{brutos+jul+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2'}}€</div></div>
-											<div class="col-sm-1 "><div class="col-sm ">{{brutos+ago+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2'}}€</div></div>
-											<div class="col-sm-1 "><div class="col-sm ">{{brutos+set+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2'}}€</div></div>
-											<div class="col-sm-1 "><div class="col-sm ">{{brutos+out+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2'}}€</div></div>
-											<div class="col-sm-1 "><div class="col-sm ">{{brutos+nov+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2'}}€</div></div>
-											<div class="col-sm-1 "><div class="col-sm ">{{brutos+dez+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2'}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{brutos+(jan*sAli)+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2'}}€</div></div>
+                      <div class="col-sm-1 "><div class="col-sm ">{{brutos+(fev*sAli)+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2'}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{brutos+(mar*sAli)+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2'}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{brutos+(abr*sAli)+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2'}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{brutos+(mai*sAli)+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2'}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{brutos+(jun*sAli)+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2'}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{brutos+(jul*sAli)+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2'}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{brutos+(ago*sAli)+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2'}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{brutos+(set*sAli)+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2'}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{brutos+(out*sAli)+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2'}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{brutos+(nov*sAli)+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2'}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{brutos+(dez*sAli)+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2'}}€</div></div>
+										</div>
+
+                    <div class="row">
+											<div class="col-sm-1 "><div class="col-sm ">{{((negocio*jan)-brutos+(jan*sAli)+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2')}}€</div></div>
+                      <div class="col-sm-1 "><div class="col-sm "></div></div>
+											<div class="col-sm-1 "><div class="col-sm "></div></div>
+											<div class="col-sm-1 "><div class="col-sm "></div></div>
+											<div class="col-sm-1 "><div class="col-sm "></div></div>
+											<div class="col-sm-1 "><div class="col-sm "></div></div>
+											<div class="col-sm-1 "><div class="col-sm "></div></div>
+											<div class="col-sm-1 "><div class="col-sm "></div></div>
+											<div class="col-sm-1 "><div class="col-sm "></div></div>
+											<div class="col-sm-1 "><div class="col-sm "></div></div>
+											<div class="col-sm-1 "><div class="col-sm "></div></div>
+											<div class="col-sm-1 "><div class="col-sm "></div></div>
 										</div>
  
 									</div>
@@ -199,7 +214,7 @@
 										<div class="row "><div class="col-sm ">€</div></div>
 										<div class="row "><div class="col-sm ">{{brutos*14*0.2375 | number:'1.2-2'}}€</div></div>
 										<div class="row "><div class="col-sm ">{{(brutos*14)+totalsAli+(aCusto*11)+(brutos*14*0.2375) | number:'1.2-2'}}€</div></div>
-										<div class="row "><div class="col-sm ">{{negocio*20 | number:'1.2-2'}}€</div></div>
+										<div class="row "><div class="col-sm ">{{(negocio*20*12)-((brutos*14)+totalsAli+(aCusto*11)+(brutos*14*0.2375)) | number:'1.2-2'}}€</div></div>
 									
 									</div>
 								</div>
