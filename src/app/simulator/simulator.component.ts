@@ -15,20 +15,20 @@ export class SimulatorComponent implements OnInit {
   eCivil=null;
   depen=null;
 
-    jan=(22*this.sAli).toFixed(2);
-    fev=(20*this.sAli).toFixed(2);
-    mar=(22*this.sAli).toFixed(2);
-    abr=(22*this.sAli).toFixed(2);
-    mai=(20*this.sAli).toFixed(2);
-    jun=(19*this.sAli).toFixed(2);
-    jul=(23*this.sAli).toFixed(2);
-    ago=(21*this.sAli).toFixed(2);
-    set=(22*this.sAli).toFixed(2);
-    out=(21*this.sAli).toFixed(2);
-    nov=(21*this.sAli).toFixed(2);
-    dez=(20*this.sAli).toFixed(2);
+    jan=Math.round((22*this.sAli)*1e2)/1e2;
+    fev=Math.round((20*this.sAli)*1e2)/1e2;
+    mar=Math.round((22*this.sAli)*1e2)/1e2;
+    abr=Math.round((22*this.sAli)*1e2)/1e2;
+    mai=Math.round((20*this.sAli)*1e2)/1e2;
+    jun=Math.round((19*this.sAli)*1e2)/1e2;
+    jul=Math.round((23*this.sAli)*1e2)/1e2;
+    ago=Math.round((21*this.sAli)*1e2)/1e2;
+    set=Math.round((22*this.sAli)*1e2)/1e2;
+    out=Math.round((21*this.sAli)*1e2)/1e2;
+    nov=Math.round((21*this.sAli)*1e2)/1e2;
+    dez=Math.round((20*this.sAli)*1e2)/1e2;
   
-  totalsAli=this.jan+this.fev+this.mar+this.abr+this.mai+this.jun+this.jul+this.ago+this.set+this.out+this.nov+this.dez;
+  totalsAli=Math.round((this.jan+this.fev+this.mar+this.abr+this.mai+this.jun+this.jul+this.ago+this.set+this.out+this.nov+this.dez)*1e2)/1e2;
 
   
   meses=[
