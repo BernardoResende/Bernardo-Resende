@@ -7,13 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SimulatorComponent implements OnInit {
   
-  nome="bernardo";
-  idade=28;
-  brutos=1000;
-  aCusto=500;
+  nome=null;
+  idade=null;
+  brutos=null;
+  aCusto=null;
   sAli=7.63;
-  eCivil="Solteiro";
-  depen=0;
+  eCivil=null;
+  depen=null;
 
   
   meses=[
