@@ -1,6 +1,6 @@
 <p><input matInput placeholder="Nome" [(ngModel)]="this.nome"></p>
 	<p><input matInput placeholder="Idade" [(ngModel)]="this.idade"></p>
-		<p><input matInput placeholder="Brutos" [(ngModel)]="this.brutos"></p>
+		<p><input type="number" matInput placeholder="Brutos" [(ngModel)]="this.brutos"></p>
 			<p><input matInput placeholder="A. Custo" [(ngModel)]="this.aCusto "></p>
 				<p><input matInput placeholder="Estado Civil" [(ngModel)]="this.eCivil"></p>
 					<p><input matInput placeholder="Dependentes" [(ngModel)]="this.depen"></p>
@@ -166,7 +166,7 @@
 											<div class="col-sm-1 "><div class="col-sm ">€</div></div>
 										</div>
 
-                      <div class="row ">
+                    <div class="row">
 											<div class="col-sm-1 "><div class="col-sm ">{{brutos+jan}}</div></div>
 											<div class="col-sm-1 "><div class="col-sm "></div></div>
 											<div class="col-sm-1 "><div class="col-sm "></div></div>

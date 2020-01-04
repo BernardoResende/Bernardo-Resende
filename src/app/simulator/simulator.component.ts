@@ -11,7 +11,7 @@ export class SimulatorComponent implements OnInit {
   idade=null;
   brutos=null;
   aCusto=null;
-  aCusto=null;
+  encargo=null;
   sAli=7.63;
   eCivil=null;
   depen=null;
@@ -32,7 +32,7 @@ export class SimulatorComponent implements OnInit {
   
   totalsAli=Math.round((this.jan+this.fev+this.mar+this.abr+this.mai+this.jul+this.ago+this.set+this.out+this.nov+this.dez)*1e2)/1e2;
 
-  encargo=[(ngModel)]="this.nome";
+  
 
   
   
@@ -73,5 +73,10 @@ export class SimulatorComponent implements OnInit {
 
   ngOnInit() {
   }
+
+  // contas(): boolean {
+  // this.encargo = this.brutos + this.jan;
+  // return true;
+  // }
 
 }
