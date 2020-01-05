@@ -6,9 +6,11 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { SimulatorComponent } from './simulator/simulator.component';
 import {MatInputModule} from '@angular/material/input';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatSelectModule} from '@angular/material/select';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, MatInputModule ],
+  imports:      [ BrowserModule, FormsModule, MatInputModule, MatToolbarModule, MatSelectModule ],
   declarations: [ AppComponent, HelloComponent, SimulatorComponent ],
   bootstrap:    [ AppComponent ]
 })
