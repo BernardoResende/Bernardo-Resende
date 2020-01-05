@@ -39,31 +39,31 @@
 										<div class="col-sm "></div>
 									</div>
 									<div class="row ">
-										<div class="col-sm ">Bruto</div>
+										<div class="col-sm "><b>Bruto</b></div>
 									</div>
 									<div class="row ">
-										<div class="col-sm ">Sub. Férias</div>
+										<div class="col-sm "><b>Sub. Férias</b></div>
 									</div>
 									<div class="row ">
-										<div class="col-sm ">Sub. Natal</div>
+										<div class="col-sm "><b>Sub. Natal</b></div>
 									</div>
 									<div class="row ">
-										<div class="col-sm ">Sub. Ali.</div>
+										<div class="col-sm "><b>Sub. Ali.</b></div>
 									</div>
 									<div class="row ">
-										<div class="col-sm ">A. Custo</div>
+										<div class="col-sm "><b>A. Custo</b></div>
 									</div>
 									<div class="row ">
-										<div class="col-sm ">Seguro</div>
+										<div class="col-sm "><b>Seguro</b></div>
 									</div>
 									<div class="row ">
-										<div class="col-sm "></div>TSU
+										<div class="col-sm "><b>TSU</b></div>
 									</div>
 									<div class="row ">
-										<div class="col-sm "></div>Encargo
+										<div class="col-sm "><b>Encargo</b></div>
 									</div>
 									<div class="row ">
-										<div class="col-sm "></div>Lucro Médio
+										<div class="col-sm "><b>Lucro</b></div>
 									</div>
 									<div class="row ">
 										<div class="col-sm "></div>
@@ -74,7 +74,7 @@
 							<div class="col-sm  ">
 								<div class="container ">
 									<div class="row ">
-										<div class="col-sm-1 " *ngFor="let titulo of titulos">{{titulo}}</div>
+										<div class="col-sm-1 " *ngFor="let titulo of titulos"><b>{{titulo}}</b></div>
 									</div>
 
 									<div class="row ">
@@ -126,7 +126,7 @@
 									</div>
 
 									<div class="row ">
-										<div class="col-sm-1 " *ngFor="let titulo of meses">{{titulo}}</div>
+										<div class="col-sm-1 " *ngFor="let titulo of meses"><b>{{titulo}}</b></div>
 									</div>
 
 									<div class="row ">
@@ -547,37 +547,37 @@
 										<div class="col-sm "></div>
 									</div>
 									<div class="row ">
-										<div class="col-sm ">TOTAIS</div>
+										<div class="col-sm "><b>TOTAIS</b></div>
 									</div>
 									<div class="row ">
-										<div class="col-sm ">{{(brutos*12) | number:'1.2-2'}}€</div>
+										<div class="col-sm "><b>{{(brutos*12) | number:'1.2-2'}}€</b></div>
 									</div>
 									<div class="row ">
-										<div class="col-sm ">{{brutos | number:'1.2-2'}}€</div>
+										<div class="col-sm "><b>{{brutos | number:'1.2-2'}}€</b></div>
 									</div>
 									<div class="row ">
-										<div class="col-sm ">{{brutos | number:'1.2-2'}}€</div>
+										<div class="col-sm "><b>{{brutos | number:'1.2-2'}}€</b></div>
 									</div>
 									<div class="row ">
-										<div class="col-sm ">{{somaDias*sAli  | number:'1.2-2'}}€</div>
+										<div class="col-sm "><b>{{somaDias*sAli  | number:'1.2-2'}}€</b></div>
 									</div>
 									<div class="row ">
-										<div class="col-sm ">{{(aCusto*11) | number:'1.2-2'}}€</div>
+										<div class="col-sm "><b>{{(aCusto*11) | number:'1.2-2'}}€</b></div>
 									</div>
 									<div class="row ">
-										<div class="col-sm ">{{contasSeguro(idade)*12 | number:'1.2-2'}}€</div>
+										<div class="col-sm "><b>{{contasSeguro(idade)*12 | number:'1.2-2'}}€</b></div>
 									</div>
 									<div class="row ">
-										<div class="col-sm ">{{brutos*14*0.2375 | number:'1.2-2'}}€</div>
+										<div class="col-sm "><b>{{brutos*14*0.2375 | number:'1.2-2'}}€</b></div>
 									</div>
 									<div class="row ">
-										<div class="col-sm ">
+										<div class="col-sm "><b>
 											{{(brutos*14)+(somaDias*sAli)+(aCusto*11)+(brutos*14*0.2375) | number:'1.2-2'}}€
-										</div>
+										</b></div>
 									</div>
 									<div class="row ">
-										<div class="col-sm ">
-											{{(negocio*(somaDias-22))-((brutos*14)+(somaDias*sAli)+(aCusto*11)+(brutos*14*0.2375)+(contasSeguro(idade)*12)) | number:'1.2-2'}}€
+										<div class="col-sm "><b>
+											{{(negocio*(somaDias-22))-((brutos*14)+(somaDias*sAli)+(aCusto*11)+(brutos*14*0.2375)+(contasSeguro(idade)*12)) | number:'1.2-2'}}€<</b>
 										</div>
 									</div>
 
