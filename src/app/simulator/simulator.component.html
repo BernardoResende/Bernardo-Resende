@@ -2,10 +2,10 @@
 	<p><input type="number" matInput placeholder="Idade" [(ngModel)]="this.idade"></p>
 		<p><input type="number" matInput placeholder="Brutos" [(ngModel)]="this.brutos"></p>
 			<p><input type="number" matInput placeholder="A. Custo" [(ngModel)]="this.aCusto "></p>
-				<p><select matNativeControl required>
-        <option value="eCivil">Não Casado</option>
-        <option value="eCivil">Casado 1 Titular</option>
-        <option value="eCivil">Casado 2 Titulares</option>
+				<p><select matNativeControl required [(ngModel)]="this.eCivil">
+        <option>Não Casado</option>
+        <option>Casado 1 Titular</option>
+        <option>Casado 2 Titulares</option>
         </select></p>
 				<p><input type="number" matInput placeholder="Dependentes" [(ngModel)]="this.depen"></p>
 

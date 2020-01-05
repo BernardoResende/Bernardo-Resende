@@ -18,9 +18,7 @@ export class SimulatorComponent implements OnInit {
   tsu:number=null;
   negocio:number=null;
   seguro:number=null;
-  nc:String=null;
-  c1t:String=null;
-  c2t:String=null;
+  
 
     jan=22;
     fev=20;
