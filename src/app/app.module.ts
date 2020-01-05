@@ -9,10 +9,11 @@ import {MatInputModule} from '@angular/material/input';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatSelectModule} from '@angular/material/select';
 import { TopmenuComponent } from './topmenu/topmenu.component';
+import { Simulator2Component } from './simulator2/simulator2.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, MatInputModule, MatToolbarModule, MatSelectModule ],
-  declarations: [ AppComponent, HelloComponent, SimulatorComponent, TopmenuComponent ],
+  declarations: [ AppComponent, HelloComponent, SimulatorComponent, TopmenuComponent, Simulator2Component ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
