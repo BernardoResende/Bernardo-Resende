@@ -72,6 +72,7 @@ export class SimulatorComponent implements OnInit {
     'TSU',
   ]
 
+  arraySeguro: number[] = [21.51,20.95,17.19];
   
  
     
@@ -81,10 +82,20 @@ export class SimulatorComponent implements OnInit {
   ngOnInit() {
   }
 
-  contas(){
-  if(this.idade>=1&&this.idade<=5){this.seguro=21.51;}
+  contasSeguro (idade: number): number {
+
+    if ( idade == null ) { return 0;}
+
+    if ( idade >= 1 && idade <= 5 ) {
+      return this.arraySeguro[0];
+    } else if ( idade <= 11 ) {
+      return this.arraySeguro[1];
+    } else if ( idade <= 13 ) {
+      return this.arraySeguro[2];
+      //faltam os outros
+    }
   }
-  
+
   // contas(): boolean {
   // this.encargo = this.brutos + this.jan;
   // return true;
