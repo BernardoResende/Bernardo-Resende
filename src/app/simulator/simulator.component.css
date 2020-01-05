@@ -29,10 +29,10 @@ input {
   margin-right: 10px;
   margin-left: 10px;
   background-color: transparent!important;
-  border-radius: 8px;
-  border-color: #34B18E!important;
+  border-radius: 5px;
   color: white;
   padding: 5px;
+  border:1px solid #34B18E;
 }
   
 input:focus {

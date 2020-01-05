@@ -5,12 +5,16 @@
 <p><input type="String"matInput placeholder="Nome" [(ngModel)]="this.nome"><input type="number"matInput placeholder="Negocio" [(ngModel)]="this.negocio"></p>
 	<p><input type="number" placeholder="Idade" [(ngModel)]="this.idade"></p>
 		<p><input type="number" matInput placeholder="Brutos" [(ngModel)]="this.brutos"></p>
-			<p><input type="number" matInput placeholder="A. Custo" [(ngModel)]="this.aCusto "></p>
-				<p><select matNativeControl required [(ngModel)]="this.eCivil">
-        <option>Não Casado</option>
-        <option>Casado 1 Titular</option>
-        <option>Casado 2 Titulares</option>
-        </select></p>
+			<p><input type="number" matInput placeholder="A. Custo" [(ngModel)]="this.aCusto"></p>
+
+				<p>
+          <select matNativeControl placeholder="eCivil" required [(ngModel)]="this.eCivil">
+          <option>Não Casado</option>
+          <option>Casado 1 Titular</option>
+          <option>Casado 2 Titulares</option>
+        </select>
+        </p>
+
 				<p><input type="number" matInput placeholder="Dependentes" [(ngModel)]="this.depen"></p>
 
 
