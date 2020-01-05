@@ -29,8 +29,9 @@ input {
   margin-right: 10px;
   margin-left: 10px;
   background-color: transparent!important;
-  border: none;
+  border-radius: 8px;
   color: white;
+  padding: 5px;
 }
   
 input:focus {
