@@ -2,3 +2,12 @@ img.resize {
   width:200px;
   height:40px;
 }
+
+.example-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 1250px;
+  background: #1b1f2b!important;;
+}
