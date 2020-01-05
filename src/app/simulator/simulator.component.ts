@@ -30,8 +30,10 @@ export class SimulatorComponent implements OnInit {
     out=21;
     nov=21;
     dez=20;
+
+    
   
-  totalsAli=Math.round((this.jan+this.fev+this.mar+this.abr+this.mai+this.jul+this.ago+this.set+this.out+this.nov+this.dez)*1e2)/1e2;
+  somaDias=((this.jan+this.fev+this.mar+this.abr+this.mai+this.jul+this.ago+this.set+this.out+this.nov+this.dez));
 
   
 

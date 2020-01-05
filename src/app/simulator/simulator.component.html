@@ -183,18 +183,18 @@
 										</div>
 
                     <div class="row">
-											<div class="col-sm-1 "><div class="col-sm ">{{((negocio*jan)-brutos+(jan*sAli)+(aCusto*11/12)+(brutos*0.2375) | number:'1.2-2')}}€</div></div>
-                      <div class="col-sm-1 "><div class="col-sm "></div></div>
-											<div class="col-sm-1 "><div class="col-sm "></div></div>
-											<div class="col-sm-1 "><div class="col-sm "></div></div>
-											<div class="col-sm-1 "><div class="col-sm "></div></div>
-											<div class="col-sm-1 "><div class="col-sm "></div></div>
-											<div class="col-sm-1 "><div class="col-sm "></div></div>
-											<div class="col-sm-1 "><div class="col-sm "></div></div>
-											<div class="col-sm-1 "><div class="col-sm "></div></div>
-											<div class="col-sm-1 "><div class="col-sm "></div></div>
-											<div class="col-sm-1 "><div class="col-sm "></div></div>
-											<div class="col-sm-1 "><div class="col-sm "></div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{((negocio*jan)-brutos-(jan*sAli)-(aCusto*11/12)-(brutos*0.2375) | number:'1.2-2')}}€</div></div>
+                      <div class="col-sm-1 "><div class="col-sm ">{{((negocio*fev)-brutos-(fev*sAli)-(aCusto*11/12)-(brutos*0.2375) | number:'1.2-2')}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{((negocio*mar)-brutos-(mar*sAli)-(aCusto*11/12)-(brutos*0.2375) | number:'1.2-2')}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{((negocio*abr)-brutos-(abr*sAli)-(aCusto*11/12)-(brutos*0.2375) | number:'1.2-2')}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{((negocio*mai)-brutos-(mai*sAli)-(aCusto*11/12)-(brutos*0.2375) | number:'1.2-2')}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{((negocio*jun)-(brutos*2)-(jun*sAli)-(aCusto*11/12)-(brutos*0.2375) | number:'1.2-2')}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{((negocio*jul)-brutos-(jul*sAli)-(aCusto*11/12)-(brutos*0.2375) | number:'1.2-2')}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{((negocio*ago)-brutos-(ago*sAli)-(aCusto*11/12)-(brutos*0.2375) | number:'1.2-2')}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{((negocio*set)-brutos-(set*sAli)-(aCusto*11/12)-(brutos*0.2375) | number:'1.2-2')}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{((negocio*out)-brutos-(out*sAli)-(aCusto*11/12)-(brutos*0.2375) | number:'1.2-2')}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{((negocio*nov)-(brutos*2)-(nov*sAli)-(aCusto*11/12)-(brutos*0.2375) | number:'1.2-2')}}€</div></div>
+											<div class="col-sm-1 "><div class="col-sm ">{{((negocio*dez)-brutos-(dez*sAli)-(aCusto*11/12)-(brutos*0.2375) | number:'1.2-2')}}€</div></div>
 										</div>
  
 									</div>
@@ -209,13 +209,14 @@
 										<div class="row "><div class="col-sm ">{{(brutos*12) | number:'1.2-2'}}€</div></div>
 										<div class="row "><div class="col-sm ">{{brutos | number:'1.2-2'}}€</div></div>
 										<div class="row "><div class="col-sm ">{{brutos | number:'1.2-2'}}€</div></div>
-										<div class="row "><div class="col-sm ">{{totalsAli  | number:'1.2-2'}}€</div></div>
+										<div class="row "><div class="col-sm ">{{somaDias*sAli  | number:'1.2-2'}}€</div></div>
 										<div class="row "><div class="col-sm ">{{(aCusto*11) | number:'1.2-2'}}€</div></div>
 										<div class="row "><div class="col-sm ">€</div></div>
 										<div class="row "><div class="col-sm ">{{brutos*14*0.2375 | number:'1.2-2'}}€</div></div>
-										<div class="row "><div class="col-sm ">{{(brutos*14)+totalsAli+(aCusto*11)+(brutos*14*0.2375) | number:'1.2-2'}}€</div></div>
-										<div class="row "><div class="col-sm ">{{(negocio*20*12)-((brutos*14)+totalsAli+(aCusto*11)+(brutos*14*0.2375)) | number:'1.2-2'}}€</div></div>
-									
+										<div class="row "><div class="col-sm ">{{(brutos*14)+(somaDias*sAli)+(aCusto*11)+(brutos*14*0.2375) | number:'1.2-2'}}€</div></div>
+										<div class="row "><div class="col-sm ">{{(negocio*(somaDias-22))-((brutos*14)+(somaDias*sAli)+(aCusto*11)+(brutos*14*0.2375)) | number:'1.2-2'}}€</div></div>
+                    
+
 									</div>
 								</div>
 
