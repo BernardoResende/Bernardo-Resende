@@ -1,14 +1,14 @@
 /* Add application styles & imports to this file! */
 
  body{
-   background-color: #1b1f2b!important;
+   background-color: white!important;
    font-family: 'Source Code Pro',monospace!important;
    color: #34B18E;
    font-size: 12px; 
   
 }
 
-.container {
+/* .container {
     max-width: 1200px!important;
-}
+} */
 

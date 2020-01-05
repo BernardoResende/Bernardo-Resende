@@ -1,15 +1,10 @@
-img {
-  width:200px;
-  height:40px;
-  background: #1b1f2b!important;
-}
 
 .example-container {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
-  right: 1250px;
+  right: 0;
   background: #1b1f2b!important;
 }
 

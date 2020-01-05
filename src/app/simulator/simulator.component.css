@@ -48,9 +48,17 @@ select {
   border-color: #34B18E!important;
   color: white;
   padding: 10px!important;
+  width: 159px!important;
+  height: 32px!important;
 }
 
 select:focus {
     box-shadow: none;
     outline: none;
+}
+
+img {
+  width:200px;
+  height:40px;
+  background: #1b1f2b!important;
 }
