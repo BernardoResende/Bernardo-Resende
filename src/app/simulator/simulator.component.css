@@ -57,8 +57,6 @@ select:focus {
     outline: none;
 }
 
-img {
-  width:200px;
-  height:40px;
-  background: #1b1f2b!important;
+mat-toolbar{
+  
 }
