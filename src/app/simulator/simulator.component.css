@@ -29,3 +29,7 @@ div{
   visibility:hidden;
 }
 
+img.resize {
+  width:200px;
+  height:40px;
+}
