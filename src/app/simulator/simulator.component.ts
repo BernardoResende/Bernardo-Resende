@@ -41,7 +41,6 @@ export class SimulatorComponent implements OnInit {
 
   
 
-
   
   meses=[
     'Janeiro',
@@ -82,6 +81,10 @@ export class SimulatorComponent implements OnInit {
   ngOnInit() {
   }
 
+  contas(){
+  if(this.idade>=1&&this.idade<=5){this.seguro=21.51;}
+  }
+  
   // contas(): boolean {
   // this.encargo = this.brutos + this.jan;
   // return true;

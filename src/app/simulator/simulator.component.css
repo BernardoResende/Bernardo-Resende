@@ -6,10 +6,6 @@
   Max-Width:10%;
 }
 
-.widthcontainer {
-  max-width: 100%;
-}
-
 div{
   margin:0%!important;
   padding:0%!important;
@@ -29,7 +25,3 @@ div{
   visibility:hidden;
 }
 
-img.resize {
-  width:200px;
-  height:40px;
-}
