@@ -28,5 +28,13 @@ div{
 input {
   margin-right: 10px;
   margin-left: 10px;
+  background-color: transparent!important;
+  border: none;
+  color: white;
+}
+  
+input:focus {
+    box-shadow: none;
+    outline: none;
 }
 
