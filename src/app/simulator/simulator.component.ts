@@ -17,6 +17,10 @@ export class SimulatorComponent implements OnInit {
   depen:number=null;
   tsu:number=null;
   negocio:number=null;
+  seguro:number=null;
+  nc:String=null;
+  c1t:String=null;
+  c2t:String=null;
 
     jan=22;
     fev=20;
@@ -37,7 +41,7 @@ export class SimulatorComponent implements OnInit {
 
   
 
-  
+
   
   meses=[
     'Janeiro',
@@ -69,6 +73,7 @@ export class SimulatorComponent implements OnInit {
     'TSU',
   ]
 
+  
  
     
 
@@ -82,4 +87,7 @@ export class SimulatorComponent implements OnInit {
   // return true;
   // }
 
+
+
+  
 }
