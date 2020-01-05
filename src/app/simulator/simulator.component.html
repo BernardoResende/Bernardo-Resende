@@ -565,7 +565,7 @@
 										<div class="col-sm ">{{(aCusto*11) | number:'1.2-2'}}€</div>
 									</div>
 									<div class="row ">
-										<div class="col-sm ">€</div>
+										<div class="col-sm ">{{contasSeguro(idade)*12}}€</div>
 									</div>
 									<div class="row ">
 										<div class="col-sm ">{{brutos*14*0.2375 | number:'1.2-2'}}€</div>
@@ -577,7 +577,7 @@
 									</div>
 									<div class="row ">
 										<div class="col-sm ">
-											{{(negocio*(somaDias-22))-((brutos*14)+(somaDias*sAli)+(aCusto*11)+(brutos*14*0.2375)) | number:'1.2-2'}}€
+											{{(negocio*(somaDias-22))-((brutos*14)+(somaDias*sAli)+(aCusto*11)+(brutos*14*0.2375)+(contasSeguro(idade)*12)) | number:'1.2-2'}}€
 										</div>
 									</div>
 
