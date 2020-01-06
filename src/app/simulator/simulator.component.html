@@ -1,21 +1,18 @@
 <p>
-<mat-toolbar><b>SIMULATOR</b></mat-toolbar>
+	<mat-toolbar><b>SIMULATOR</b></mat-toolbar>
 </p>
 
 <p><input type="String"matInput placeholder="Nome" [(ngModel)]="this.nome"><input type="number" placeholder="Idade" [(ngModel)]="this.idade"></p>
+	<p><input type="number"matInput placeholder="Negocio" [(ngModel)]="this.negocio"></p>
 		<p><input type="number" matInput placeholder="Brutos" [(ngModel)]="this.brutos"><input type="number" matInput placeholder="A. Custo" [(ngModel)]="this.aCusto"></p>
 			
-        <p><input type="number"matInput placeholder="Negocio" [(ngModel)]="this.negocio"></p>
-
 				<p>
-          <select matNativeControl placeholder="eCivil" required [(ngModel)]="this.eCivil">
+					<select matNativeControl placeholder="eCivil" required [(ngModel)]="this.eCivil">
           <option>Não Casado</option>
           <option>Casado 1 Titular</option>
           <option>Casado 2 Titulares</option>
         </select>
-        </p>
-
-				<p><input type="number" matInput placeholder="Dependentes" [(ngModel)]="this.depen"></p>
+				<input type="number" matInput placeholder="Dependentes" [(ngModel)]="this.depen"></p>
 
 
 					<div class="container">
@@ -43,7 +40,7 @@
 									<div class="row ">
 										<div class="col-sm "></div>
 									</div>
-                  	<div class="row ">
+									<div class="row ">
 										<div class="col-sm "></div>
 									</div>
 									<div class="row ">
@@ -107,22 +104,22 @@
 										<div class="col-sm-1 ">
 											<div class="col-sm ">{{depen}}</div>
 										</div>
-                    <div class="col-sm-1 ">
+										<div class="col-sm-1 ">
 											<div class="col-sm "></div>
 										</div>
-                    <div class="col-sm-1 ">
+										<div class="col-sm-1 ">
 											<div class="col-sm ">{{contasSeguro(idade) | number:'1.2-2'}}€</div>
 										</div>
-                    <div class="col-sm-1 ">
+										<div class="col-sm-1 ">
 											<div class="col-sm "></div>
 										</div>
-                    <div class="col-sm-1 ">
+										<div class="col-sm-1 ">
 											<div class="col-sm ">{{(brutos*0.11) | number:'1.2-2'}}€</div>
 										</div>
-                    <div class="col-sm-1 ">
+										<div class="col-sm-1 ">
 											<div class="col-sm ">{{(brutos*0.2375) | number:'1.2-2'}}€</div>
 										</div>
-                    <div class="col-sm-1 ">
+										<div class="col-sm-1 ">
 											<div class="col-sm "></div>
 										</div>
 									</div>
@@ -551,7 +548,7 @@
 									<div class="row ">
 										<div class="col-sm "></div>
 									</div>
-                  <div class="row ">
+									<div class="row ">
 										<div class="col-sm "></div>
 									</div>
 									<div class="row ">

@@ -12,10 +12,11 @@ import { TopmenuComponent } from './topmenu/topmenu.component';
 import { Simulator2Component } from './simulator2/simulator2.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MatButtonModule} from '@angular/material/button';
 
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, MatInputModule, MatToolbarModule, MatSelectModule, MatSidenavModule, BrowserAnimationsModule ],
+  imports:      [ BrowserModule, FormsModule, MatInputModule, MatToolbarModule, MatSelectModule, MatSidenavModule, BrowserAnimationsModule,MatButtonModule ],
   declarations: [ AppComponent, HelloComponent, SimulatorComponent, TopmenuComponent, Simulator2Component ],
   bootstrap:    [ AppComponent ]
 })
