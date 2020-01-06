@@ -26,8 +26,7 @@ div{
 }
 
 input {
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-left: 15px;
   background-color: transparent!important;
   border-radius: 5px;
   color: white;
@@ -41,8 +40,8 @@ input:focus {
 }
 
 select {
-  margin-right: 10px;
-  margin-left: 10px;
+  
+  margin-left: 15px;
   background-color: transparent!important;
   border-radius: 8px;
   border-color: #34B18E!important;
