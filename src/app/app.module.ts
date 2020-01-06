@@ -13,10 +13,11 @@ import { Simulator2Component } from './simulator2/simulator2.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
 
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, MatInputModule, MatToolbarModule, MatSelectModule, MatSidenavModule, BrowserAnimationsModule,MatButtonModule ],
+  imports:      [ BrowserModule, FormsModule, MatInputModule, MatToolbarModule, MatSelectModule, MatSidenavModule, BrowserAnimationsModule,MatButtonModule, MatIconModule ],
   declarations: [ AppComponent, HelloComponent, SimulatorComponent, TopmenuComponent, Simulator2Component ],
   bootstrap:    [ AppComponent ]
 })
