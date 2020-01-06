@@ -15,10 +15,11 @@ div{
   border:none;
 }
 
-border{
-  border:1px solid white;
+/* border{
+  border:1px solid #34B18E;
+  border-radius: 5px!important;
   margin:15px!important;
-}
+} */
 
 .col-sm:empty::after{
   content: ".";
