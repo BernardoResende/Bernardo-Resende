@@ -108,9 +108,9 @@ export class SimulatorComponent implements OnInit {
       return this.arraySeguro[13];
     } else if ( idade <= 70 ) {
       return this.arraySeguro[14];
-   
-    }
-    
+    } else {
+      return 0;
+      }
   }
 
   // contas(): boolean {
