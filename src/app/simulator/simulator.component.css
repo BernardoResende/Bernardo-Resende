@@ -1,10 +1,10 @@
 .leftside {
   Max-Width:8%;
-  text-align: left!important;
 }
 
 .rightside {
   Max-Width:8%;
+  text-align: right;
 }
 
 div{
@@ -17,7 +17,7 @@ div{
   visibility:hidden;
 }
 
-.col-sm{
+.col-sm-1{
   text-align: right;
 }
 
