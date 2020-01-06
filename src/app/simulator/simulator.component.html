@@ -15,7 +15,7 @@
 				<input type="number" matInput placeholder="Dependentes" [(ngModel)]="this.depen"></p>
 
 
-					<div class="container">
+					<div class="container border">
 
 						<div class="row ">
 
@@ -44,7 +44,7 @@
 										<div class="col-sm "></div>
 									</div>
 									<div class="row ">
-										<div class="col-sm "><b>Bruto</b></div>
+										<div class="col-sm margin "><b>Bruto</b></div>
 									</div>
 									<div class="row ">
 										<div class="col-sm "><b>Sub. Férias</b></div>
@@ -582,7 +582,7 @@
 									</div>
 									<div class="row ">
 										<div class="col-sm "><b>
-											{{(negocio*(somaDias-22))-((brutos*14)+(somaDias*sAli)+(aCusto*11)+(brutos*14*0.2375)+(contasSeguro(idade)*12)) | number:'1.2-2'}}€<</b>
+											{{(negocio*(somaDias-22))-((brutos*14)+(somaDias*sAli)+(aCusto*11)+(brutos*14*0.2375)+(contasSeguro(idade)*12)) | number:'1.2-2'}}€</b>
 										</div>
 									</div>
 

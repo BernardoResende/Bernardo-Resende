@@ -1,15 +1,23 @@
 .leftside {
   Max-Width:8%;
+  margin-left:15px;
 }
 
 .rightside {
   Max-Width:8%;
   text-align: right;
+  margin-right:15px;
 }
 
 div{
-  margin:0%!important;
+  margin:0%;
   padding:0%!important;
+  border:none;
+}
+
+border{
+  border:1px solid white;
+  margin:15px!important;
 }
 
 .col-sm:empty::after{
