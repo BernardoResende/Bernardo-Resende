@@ -23,4 +23,11 @@ button{
   color:white;
 }
 
+button:hover {
+  background: #34B18E;
+}
 
+button:focus{
+  box-shadow: none;
+  outline: none;
+}
